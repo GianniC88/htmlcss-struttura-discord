@@ -22,14 +22,15 @@ li {
 }
 
 .bg-white {
-  color: white;
+  background-color: white;
+}
+
+.bg-gray {
+  background-color: #d3d3d3;
 }
 
 .flex {
   display: flex;
-}
-.h-100 {
-  height: 100%;
 }
 
 .brd {
@@ -76,13 +77,43 @@ li {
 /* jumbotron */
 .jumbotron {
   background-color: #5959e0;
-  height: 500px;
+  height: 600px;
   display: flex;
   justify-content: center;
   padding: 50px;
 }
+
 .jumbotron-box {
   background-color: violet;
   width: 70%;
   padding: 50px;
+}
+
+/* main content section*/
+
+.lg-box {
+  flex-basis: 60%;
+  background-color: #1e90ff;
+}
+
+.sl-box {
+  flex-basis: 40%;
+  background-color: #ffc0cb;
+}
+
+.m-box {
+  flex-basis: 100%;
+  background-color: #228b22;
+}
+section {
+  height: 600px;
+  padding: 60px 0;
+}
+
+.h-100 {
+  height: 100%;
+}
+
+.h-1200 {
+  height: 1200px;
 }
