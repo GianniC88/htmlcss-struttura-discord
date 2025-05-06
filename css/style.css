@@ -21,6 +21,20 @@ li {
   display: flex;
 }
 
+.bg-white {
+  color: white;
+}
+
+.flex {
+  display: flex;
+}
+.h-100 {
+  height: 100%;
+}
+
+.brd {
+  border: 1px solid black;
+}
 /* container navbar */
 
 .container {
@@ -57,4 +71,18 @@ li {
 
 .link-a {
   text-decoration-line: none;
+}
+
+/* jumbotron */
+.jumbotron {
+  background-color: #5959e0;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+}
+.jumbotron-box {
+  background-color: violet;
+  width: 70%;
+  padding: 50px;
 }
